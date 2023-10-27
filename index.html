@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сучасна пекарня</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сучасна пекарня</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
       <nav>
         <a href="/">
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
@@ -22,22 +24,32 @@
         </ul>
       </nav>
       <button class="button" type="button">Замовити дзвінок</button>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <!-- Сучасна пекарня -->
-      <section>
+  <main>
+    <!-- Сучасна пекарня -->
+    <section class="hero-section">
+      <div class="container">
         <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
-      </section>
+      </div>
+    </section>
 
-      <!-- Новий формат традицій -->
-      <section id="tradition-section">
-        <ul class="advantages-list">
-          <li class="advantages-item">Великий попит на ринку</li>
-          <li class="advantages-item">Доступні за бюджетом формати</li>
-          <li class="advantages-item">Досвідчена управлінська команда</li>
+    <!-- Наші переваги -->
+    <section>
+      <div class="container">
+        <h2 class="vissully-hidden">Наші переваги</h2>
+        <li class="advantages-item">Великий попит на ринку</li>
+        <li class="advantages-item">Доступні за бюджетом формати</li>
+        <li class="advantages-item">Досвідчена управлінська команда</li>
         </ul>
-        <h2 class="section-title">Новий формат традицій</h2>
+      </div>
+    </section>
+
+    <!-- Новий формат традицій -->
+    <section class="tradition-section section" id="tradition-section">
+      <div class="container">
+        <h2 class="tradition-title section-title">Новий формат традицій</h2>
         <p class="tradition-text">
           <span class="brand uppercase">shop bakery</span> — це пекарня, яка
           взяла все найкраще, і зберегла смак традиційної випічки та
@@ -48,15 +60,14 @@
           <span class="brand">5 хвилин і замовлення готове.</span> А ще у наших
           пекарень стильний дизайн та висока якість обслуговування!
         </p>
-        <img
-          src="./images/baker-man.jpg"
-          alt="Чоловік пекар дивиться на батони із посмішкою"
-        />
-      </section>
+        <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою" />
+      </div>
+    </section>
 
-      <!-- Наші найкращі шеф-кухарі -->
-      <section id="chefs-section">
-        <h2 class="section-title">
+    <!-- Наші найкращі шеф-кухарі -->
+    <section class="section" id="chefs-section">
+      <div class="container">
+        <h2 class="chefs-title section-title">
           Наші найкращі <span class="accent">шеф-кухарі</span>
         </h2>
 
@@ -81,12 +92,13 @@
             </article>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <!-- Формати -->
-      <section id="formats-section">
-        <h2 class="section-title">Формати</h2>
-
+    <!-- Формати -->
+    <section class="section" id="formats-section">
+      <div class="container">
+        <h2 class="formats-title section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -127,25 +139,24 @@
             </article>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <!-- Приєднуйся до мережі пекарень -->
-      <section id="contact-section">
-        <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
+    <!-- Приєднуйся до мережі пекарень -->
+    <section class="section" id="contact-section">
+      <div class="container">
+        <h2 class="contact-title section-title">Приєднуйся до мережі пекарень</h2>
         <p>Заповни форму, щоб ми звʼязались з тобою!</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1697229244037!5m2!1sru!2sua"
-          width="603"
-          height="595"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
-    </main>
+          width="603" height="595" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
 
-    <footer>
+  <footer>
+    <div class="container">
       <nav>
         <a href="">
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
@@ -160,23 +171,15 @@
       <address>
         <ul>
           <li>
-            <a class="adress-link" href="tel:+38(096)0000007"
-              >+ 38 (096) 000 00 07</a
-            >
+            <a class="adress-link" href="tel:+38(096)0000007">+ 38 (096) 000 00 07</a>
           </li>
 
           <li>
-            <a class="adress-link" href="mailto:shopbakery@gmail.com"
-              >shopbakery@gmail.com</a
-            >
+            <a class="adress-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
           </li>
 
           <li>
-            <a
-              class="adress-link"
-              href="https://maps.app.goo.gl/4jJMo3dhJYnmSr639"
-              target="_blank"
-            >
+            <a class="adress-link" href="https://maps.app.goo.gl/4jJMo3dhJYnmSr639" target="_blank">
               Україна, м. Київ, вул. Січових Стрільців 54
             </a>
           </li>
@@ -193,11 +196,11 @@
             </a>
           </li>
         </ul>
-        <a class="adress-link" href="#" target="_blank"
-          >Політика конфіденційності</a
-        >
+        <a class="adress-link" href="#" target="_blank">Політика конфіденційності</a>
         <p class="adress-copyright">&copy; 2022 Дані захищені</p>
       </address>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
