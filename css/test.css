@@ -63,3 +63,32 @@
   height: 50px;
   align-self: flex-end;
 }
+
+.parent {
+  padding: 20px;
+  border: 1px dotted black;
+}
+
+.item-5.red {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.item-5.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.item-5.blue {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.section-title {
+  position: sticky;
+  top: 0;
+  background-color: burlywood;
+}
