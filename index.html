@@ -269,21 +269,26 @@
       <button class="modal-btn-close" type="button">Close</button>
       <h2>Замовити дзвінок</h2>
       <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-      <form name="modal-form" autocomplete="off" novalidate>
+      <form name="modal-form" autocomplete="off">
         <div class="form-field-placeholder">
           <label class="form-label-placeholder vissully-hidden" for="user-name">Ім’я</label>
-          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ім’я" />
+          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ім’я" required />
         </div>
 
         <div class="form-field">
-          <input class="form-input" type="tel" id="user-tel" name="user-tel" />
+          <input class="form-input" type="tel" id="user-tel" name="user-tel" required pattern="^/+[0-9]{12}" />
           <label class="form-label" for="user-tel">Телефон</label>
         </div>
 
         <div class="form-field">
-          <input class="form-input" type="email" id="user-email" name="user-email" />
+          <input class="form-input" type="email" id="user-email" name="user-email" required />
           <label class="form-label" for="user-email">Електронна пошта</label>
         </div>
+
+        <!-- <div class="checkbox">
+          <input class="checkbox-input vissully-hidden" type="checkbox" id="terms-conditions" for="terms-conditions" />
+          <label class="checkbox-label" for="terms-conditions">Я точно погоджуюсь політикою конфіденційності</label>
+        </div> -->
 
         <button class="form-button button" type="submit">Замовити дзвінок</button>
 
