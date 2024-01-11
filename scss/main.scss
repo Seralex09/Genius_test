@@ -1,9 +1,9 @@
 @import './utils/fonts';
 @import './utils/variables';
-
 @import './base';
-
 @import './utils/utils';
+@import './utils/texts';
+@import './utils/mixins';
 
 @import './components/buttons';
 @import './components/carousel-button';
@@ -23,5 +23,3 @@
 @import './layauts/modal';
 @import './layauts/section';
 @import './layauts/traditions-section';
-
-@import './utils/mixins';
