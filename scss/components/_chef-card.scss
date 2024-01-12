@@ -14,11 +14,11 @@
     font-weight: 600;
   }
 
-  &__text p {
+  &__text {
     margin-bottom: 24px;
-  }
 
-  &__text p:last-child {
-    margin-bottom: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
