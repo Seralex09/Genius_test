@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Сучасна пекарня</title>
-  <link rel="stylesheet" href="./css/main.min.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header__container">
-        <nav class="header__nav">
-          <a href="/">
-            <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
-          </a>
-          <ul class="header__menu">
-            <li><a class="link" href="#tradition-section">Наші традиції</a></li>
-            <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
-            <li><a class="link" href="#formats-section">Формати</a></li>
-            <li><a class="link" href="#contact-section">Контакти</a></li>
-          </ul>
-        </nav>
-        <button class="header__button button modal-btn-open" type="button">Замовити дзвінок</button>
-        <button class="header__burger" type="button">
-          <svg width="24" height="24">
-            <use href="./images/icons.svg#icon-menu"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <!-- Сучасна пекарня -->
-    <section class="hero-section">
+  <body>
+    <header class="header">
       <div class="container">
-        <h1 class="hero-section__title"><span class="text-brand">Сучасна</span> пекарня</h1>
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="/">
+              <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
+            </a>
+            <ul class="header__menu">
+              <li>
+                <a class="link" href="#tradition-section">Наші традиції</a>
+              </li>
+              <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
+              <li><a class="link" href="#formats-section">Формати</a></li>
+              <li><a class="link" href="#contact-section">Контакти</a></li>
+            </ul>
+          </nav>
+          <button class="header__button button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              Close
+            </button>
+          </div>
+        </div>
       </div>
-    </section>
+    </header>
 
-    <!-- Наші переваги -->
-    <section class="advantages-section">
+    <main>
+      <!-- Сучасна пекарня -->
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-section__title">
+            <span class="text-brand">Сучасна</span> пекарня
+          </h1>
+        </div>
+      </section>
+
+      <!-- Наші переваги -->
+      <!-- <section class="advantages-section">
       <div class="container">
         <h2 class="vissully-hidden">Наші переваги</h2>
         <ul class="advantages-section__list">
@@ -52,10 +62,10 @@
           <li class="advantages-section__item">Досвідчена управлінська команда</li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Новий формат традицій -->
-    <section class="traditions-section section" id="tradition-section">
+      <!-- Новий формат традицій -->
+      <!-- <section class="traditions-section section" id="tradition-section">
       <div class="container">
         <div class="traditions-section__container">
           <div class="traditions-section__content">
@@ -78,10 +88,10 @@
           <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою" />
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Наші найкращі шеф-кухарі -->
-    <section class="chefs-section section" id="chefs-section">
+      <!-- Наші найкращі шеф-кухарі -->
+      <!-- <section class="chefs-section section" id="chefs-section">
       <div class="container">
         <h2 class="chefs-section__title section__title section__title--centered">
           Наші найкращі <br>
@@ -115,10 +125,10 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Формати -->
-    <section class="formats-section section" id="formats-section">
+      <!-- Формати -->
+      <!-- <section class="formats-section section" id="formats-section">
       <div class="container">
         <h2 class="formats-section__title section__title section__title--centered">Формати</h2>
         <div class="formats-section__container">
@@ -178,10 +188,10 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Приєднуйся до мережі пекарень -->
-    <section class="contact-section section" id="contact-section">
+      <!-- Приєднуйся до мережі пекарень -->
+      <!-- <section class="contact-section section" id="contact-section">
       <div class="container">
         <div class="contact-section__container">
           <div class="contact-section__form">
@@ -220,10 +230,10 @@
           </iframe>
         </div>
       </div>
-    </section>
-  </main>
+    </section> -->
+    </main>
 
-  <footer class="footer">
+    <!-- <footer class="footer">
     <div class="container">
       <div class="footer-container">
         <nav class="footer-nav">
@@ -274,9 +284,9 @@
         </address>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
-  <div class="backdrop is-hidden">
+    <!-- <div class="backdrop is-hidden">
     <div class="modal">
       <button class="modal__btn-close modal-btn-close" type="button">Close</button>
       <h2>Замовити дзвінок</h2>
@@ -297,14 +307,14 @@
           <label class="input__label vissully-hidden" for="user-email">Електронна пошта</label>
           <input class="input__control" type="email" id="user-email" name="user-email" placeholder="Електронна пошта"
             required />
-        </div>
+        </div> -->
 
-        <!-- <div class="checkbox">
+    <!-- <div class="checkbox">
           <input class="checkbox-input vissully-hidden" type="checkbox" id="terms-conditions" for="terms-conditions" />
           <label class="checkbox-label" for="terms-conditions">Я точно погоджуюсь політикою конфіденційності</label>
         </div> -->
 
-        <button class="modal__button button" type="submit">Замовити дзвінок</button>
+    <!-- <button class="modal__button button" type="submit">Замовити дзвінок</button>
 
         <p class="form-terms">
           Натискаючи на кнопку я погоджуюсь з
@@ -312,9 +322,9 @@
         </p>
       </form>
     </div>
-  </div>
+  </div> -->
 
-  <script src="./js/modal.js"></script>
-</body>
-
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
 </html>
