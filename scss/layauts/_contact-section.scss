@@ -13,14 +13,33 @@
   }
 
   &__title {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 16px;
+      text-align: left;
+    }
+  }
+
+  &__title-text {
+    color: var(--color-brand-dark);
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      text-align: left;
+    }
   }
 
   &__form-field {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 24px;
+    }
   }
 
-  &_button {
+  &__button {
     display: block;
     margin: 0 auto 16px;
   }
@@ -28,7 +47,7 @@
   &__map {
     flex-shrink: 0;
     height: 176px;
-    margin: 0 -24px;
+    margin: 0 -24px -20px;
     border-radius: 16px;
     border: none;
 
