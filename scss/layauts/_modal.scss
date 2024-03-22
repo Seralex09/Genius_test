@@ -1,5 +1,6 @@
 .backdrop {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -37,6 +38,15 @@
     position: absolute;
     top: 40px;
     right: 40px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ede9e1;
+    }
   }
 
   &__form-field {
